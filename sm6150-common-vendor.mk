@@ -668,6 +668,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libkeymaster_helper \
-    libskeymaster4device \
     vendor.qti.voiceprint-V1.0-java \
     manifest_android.hardware.drm@1.3-service.clearkey
