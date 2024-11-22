@@ -667,17 +667,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm6150-common/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.thermal@1.0.so
 
 PRODUCT_PACKAGES += \
-    libril \
     libkeymaster_helper \
     libskeymaster4device \
-    fm_helium \
-    libfm-hci \
-    vendor.qti.hardware.fm@1.0 \
-    TimeService \
-    audiosphere \
     vendor.qti.voiceprint-V1.0-java \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.health@2.1-samsung \
-    manifest_android.hardware.drm@1.3-service.clearkey \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.samsung.hardware.thermal@1.0-manifest
+    manifest_android.hardware.drm@1.3-service.clearkey
